@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-content {
+    background: rgba(226, 155, 13, 0.884);
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+/* navbar start */
+#navbar {
+    background-color: rgba(226, 155, 13, 0.884);
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link:hover {
+    background: rgb(175, 161, 4);
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button {
+    background: black;
+    color: rgb(186, 140, 22);
+    border: 1px solid white;
+}
+
+/* navbar end */
+
+
+/* home section start */
+#home {
+    width: 100%;
+    height: 90vh;
+    color: rgb(249, 249, 249);
+    background-image: url(assets/images/food-dark.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 210px;
+    padding-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 40px;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: rgba(226, 155, 13, 0.884);
+    color: white;
+}
+
+/* home section end */
+
+/* About section start */
+#about {
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#about .container {
+    padding-top: 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: rgba(226, 155, 13, 0.884);
+}
+
+#about .card {
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#about .card img {
+    border-radius: 10px;
+    border: none;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(226, 155, 13, 0.884);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: rgba(226, 155, 13, 0.884);
+}
+
+@media screen and (max-width:962px) {
+    #about p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #about p {
+        font-size: 14px;
+    }
+
+    #about {
+        height: 125vh;
+    }
+}
+
+@media screen and (max-width:269px) {
+    #about p {
+        font-size: 11px;
+    }
+
+    #about {
+        height: 130vh;
+    }
+}
+
+/* About section end */
+
+
+
+/* popular choices start */
+#popular-cards {
+    width: 100%;
+
+    background-color: rgba(226, 155, 13, 0.884);
+    padding-bottom: 20px;
+}
+
+.heading2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading2 span {
+    color: white;
+}
+
+#popular-cards .container {
+    margin-top: 30px;
+}
+
+#popular-cards .card {
+    border: none;
+    background-color: rgba(226, 155, 13, 0.884);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#popular-cards .card img {
+    border-radius: 10px;
+}
+
+#popular-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+/* popular choices end */
+
+
+/* menu start */
+#menu{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.star i{
+    color: rgba(226, 155, 13, 0.884);
+}
+#menu{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+}
+#menu p span:hover{
+    background:rgba(226, 155, 13, 0.884) ;
+}
+/* menu end */
